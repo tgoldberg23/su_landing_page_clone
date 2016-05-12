@@ -15,8 +15,17 @@ div {
 	border: 1px solid Chocolate;
 }
 /* Navigation Section */
+.content {
+	padding: 0 0.938;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
 }
 .top-navigation .content {
 	margin: 0 auto;
@@ -65,7 +74,7 @@ div {
 	text-align: center;
 	font-weight: 300;
 }
-. content .buttons 	{	
+.content .buttons 	{	
 		width: 9.688;
 		background-color: #f15a29;
 		border color: #f15a29;
@@ -75,4 +84,37 @@ div {
 		padding: 1rem 1.5rem;
 		color: white;
 		font-size: 1.125rem;
+}
+.cases .h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+.h2 {
+	display: block;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	
+}
+.cases .content {
+	color; #1d1e21;
+	text-align: center;
+}
+
+.cases .devices > li {
+	width: 33.33333%;
+	float: left;
 }
