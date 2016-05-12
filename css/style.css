@@ -28,7 +28,6 @@ div {
 	font-size: 16px;
 	margin-top:25px;
 	-webkit-font-smoothing: antialiased;
-	text-align: center;
 
 }
 .top-navigation .links li {
@@ -43,4 +42,12 @@ div {
 	cursor: pointer;
 	color: #333333;
 }
-
+/* Introduction Section */
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
