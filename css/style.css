@@ -123,3 +123,24 @@ div {
 	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
 }
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+ul { 
+display: block;
+-webkit-margin-before: 1em; 
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+list-style: none;
+}
+
+.social hr {
+	border: 0;
+	border-top:1px solid #eaebec;
+	margin: 1.313rem 0;
+}
