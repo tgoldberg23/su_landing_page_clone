@@ -28,6 +28,7 @@ div {
 	font-size: 16px;
 	margin-top:25px;
 	-webkit-font-smoothing: antialiased;
+	text-align: center;
 
 }
 .top-navigation .links li {
