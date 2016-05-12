@@ -118,3 +118,8 @@ div {
 	width: 33.33333%;
 	float: left;
 }
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+}
